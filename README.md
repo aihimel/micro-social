@@ -1,4 +1,7 @@
-# CodeIgniter 4 Application Starter
+# Micro Social A simple social sharing platform
+
+<!-- # CodeIgniter 4 Application Starter
+>>>>>>> Initial commit with project configuration.
 
 ## What is CodeIgniter?
 
@@ -61,4 +64,8 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
+<<<<<<< HEAD
 - xml (enabled by default - don't turn it off)
+=======
+- xml (enabled by default - don't turn it off) -->
+>>>>>>> Initial commit with project configuration.
