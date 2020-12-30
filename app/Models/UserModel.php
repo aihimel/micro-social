@@ -9,6 +9,6 @@ class UserModel extends Model{
     protected $returnType     = 'object';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['name', 'email'];
+    protected $allowedFields = ['name', 'email', 'password', 'location'];
 
 }
