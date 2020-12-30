@@ -7,6 +7,7 @@ class Post extends Controller
 {
     public function index()
     {
-        echo 'Post Controller.';
+        // echo 'Post Controller.';
+        echo view('post/index');
     }
 }
