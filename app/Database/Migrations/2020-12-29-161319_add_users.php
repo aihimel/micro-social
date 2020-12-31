@@ -13,6 +13,10 @@ class AddUsers extends Migration
 				'unsigned' => true,
 				'auto_increment' => true
 			],
+			'login_oauth_uid' => [
+				'type' => 'VARCHAR',
+				'constraint' => 128
+			],
 			'full_name' => [
 				'type' => 'VARCHAR',
 				'constraint' => 128,

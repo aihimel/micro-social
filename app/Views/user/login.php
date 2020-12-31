@@ -17,6 +17,7 @@ Login
             <input type="password" name="password" class="form-control" id="password_id" required>
         </div>
         <button type="submit" class="btn btn-primary">Login</button>
+        <a href="<?php echo $auth_url?>">Google Login</a>
         or <a href="/register">Register</a>
     </form>
     </div>
