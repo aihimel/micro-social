@@ -28,11 +28,14 @@ class AddPosts extends Migration
 				'type' => 'TEXT',
 				'not_null' => true,
 			],
+			'private' => [
+				'type' => 'BOOL'
+			],
 			'comment' => [
 				'type' => 'JSON'
 			],
 			'insertion_datetime' => [
-				'type' => 'TIMESTAMP'
+				'type' => 'TIMESTAMP',
 			],
 			'updated' => [
 				'type' => 'TIMESTAMP'

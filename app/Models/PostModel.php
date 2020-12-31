@@ -9,6 +9,15 @@ class PostModel extends Model{
     protected $returnType     = 'object';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['title', 'status'];
+    protected $allowedFields = ['title', 'status', 'location_id', 'user_id', 'private'];
+
+    protected $useTimestamps = true;
+    protected $createdField  = 'insertion_datetime';
+    protected $updatedField  = 'updated';
+
+    protected $validationRules = [
+        'title' => 'required',
+        'status' => 'required',
+    ];
 
 }
